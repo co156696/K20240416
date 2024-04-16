@@ -1,5 +1,5 @@
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial , Helvetica, sans-serif;
     font-size:xx-large;
     font-weight: 500;
     color:#1ee481;
@@ -17,19 +17,19 @@ p{
 footer{
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: right;
 }
 
 header{
-    background-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    background-color: rgb(216, 22, 151);
+    font-family: courier, Helvetica, sans-serif;
+    color: rgb(255, 253, 253);
     font-size: xx-large;
     text-align: center;
 }
 
 a {
-    color: white;
+    color: rgb(240, 8, 8);
     text-decoration: none;
 }
 
@@ -42,10 +42,10 @@ eine Class wird in der styles.css immer mit einem führenden Punkt dargestellt.*
   }
   /* Der folgende Style wirkt auf ale DIVs innerhalb eines flex-containers*/
   .flex-container > div {
-    background-color: #1ee481;
+    background-color: rgb(255,30,255);
     width: 100%;
     margin: 10px;
-    text-align: center;
+    text-align: right;
     line-height: 75px;
     font-size: 30px;
   }
